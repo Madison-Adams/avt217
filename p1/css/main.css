@@ -1,6 +1,12 @@
 <style>
-  h1 {text-align: center;}
-  h2 {text-align: center;}
-  p {text-align: center;}
-  <body style="background-color:#95B481;">
+body {
+  background-color: #95B481;
+  color: #35462A;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
 </style>
+}
