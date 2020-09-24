@@ -1,20 +1,24 @@
 
 body {
-  background-color: #95B481;
-  color:  #35462A;
+  background-color: #415534;
+  color:  #CFE5C2;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  margin-right: 450px;
+  margin-left: 350px;
+
+  font-family: itc-american-typewriter, serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
-h1 {
-  background-color: #95B481;
-  color: #35462A;
-}
 
 a:link {
-  color: #AA5583;
+  color: #ADD5D6;
 }
 
 a:visited {
-  color: ##793459;
+  color: #ADD5D6;
 }
 
 a:hover {
