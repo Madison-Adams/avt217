@@ -8,3 +8,22 @@ h1 {
   background-color: #95B481;
   color: #35462A;
 }
+
+a:link {
+  color: #AA5583;
+}
+
+a:visited {
+  color: ##793459;
+}
+
+a:hover {
+  color: #D5ADC2;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
