@@ -1,3 +1,25 @@
 body {
-  background-color: blue;
+  background-color: #BDE2F2;
+  color: #FFFFFF;
+  font-family: charcuterie-cursive,sans-serif;
+  font-weight: 650;
+  font-style: normal;
 }
+a:link {
+  color: #5381A3;
+}
+
+a:visited {
+  color: #264E76;
+}
+
+a:hover {
+  color: #FAF687;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
