@@ -4,6 +4,11 @@ body {
   font-family: charcuterie-cursive,sans-serif;
   font-weight: 650;
   font-style: normal;
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 75px;
 }
 a:link {
   color: #5381A3;
