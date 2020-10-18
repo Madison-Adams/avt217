@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: pink;
+
+
+}
+main {
+  width: 130vw;
+  margin: -50px -15vw;
+}
+.shape1 {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: -100px -200px;
+  opacity: 0.8;
+
+}
+
+.shape2 {
+  float: left;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100px / 50px;
+  margin: -100px -100px;
+  opacity: 0.8;
+
+}
+
+.shape3 {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 50px 100px;
+  opacity: 0.8;
+
+}
