@@ -4,7 +4,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: pink;
+  background-color: black;
 
 
 }
@@ -14,33 +14,142 @@ main {
 }
 .shape1 {
   float: left;
-  width: 100px;
-  height: 100px;
-  background-color: yellow;
+  width: 500px;
+  height: 500px;
+  background-color: #52C4D3;
   border-radius: 50%;
-  margin: -100px -200px;
+  margin: -200px -300px;
   opacity: 0.8;
 
 }
 
 .shape2 {
   float: left;
-  width: 200px;
-  height: 100px;
-  background-color: red;
-  border-radius: 100px / 50px;
-  margin: -100px -100px;
+  width: 300px;
+  height: 300px;
+  background-color: #37D875;
+  border-radius: 50%;
+  margin: -200px -200px;
   opacity: 0.8;
 
 }
 
 .shape3 {
   float: left;
-  width: 150px;
-  height: 150px;
-  background-color: blue;
+  width: 250px;
+  height: 250px;
+  background-color: #D666C9;
   border-radius: 50%;
   margin: 50px 100px;
   opacity: 0.8;
 
+}
+
+.shape4 {
+  float: left;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+  margin: -26px -26px;
+  opacity: 0.8;
+
+}
+
+.shape5 {
+  float: left;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid purple;
+  margin: -25px -25px;
+  opacity: 0.8;
+}
+
+.shape6 {
+  float: left;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid blue;
+  margin: -24px -24px;
+  opacity: 0.8;
+}
+
+.shape7 {
+  float: left;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #3A1365;
+  margin: -23px -23px;
+  opacity: 0.8;
+}
+
+.shape8 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #ADEFFF;
+  margin: -15px -15px;
+
+
+}
+
+.shape9 {
+  float: left;
+  width: 300px;
+  height: 300px;
+  background: #F5E1ED;
+  border-radius: 50%;
+  margin: -50px -50px;
+  opacity: 0.8;
+
+}
+
+.shape10 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: #FAF6C2;
+  border-radius: 50%;
+  margin: -25px -25px;
+  opacity: 0.8;
+
+}
+
+.shape11 {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: #EFE788;
+  border-radius: 50%;
+  margin: -50px -50px;
+  opacity: 0.8;
+
+}
+
+.shape12 {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #EFE357;
+  border-radius: 50%;
+  margin: -25px -25px;
+  opacity: 0.8;
+}
+
+.shape13 {
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: #F2CBE2;
+  border-radius: 50%;
+  margin: 70px 70px;
+  opacity: 0.8;
 }
