@@ -51,6 +51,14 @@ body {
   background-color: darkorange;
   margin-right: 25px;
 }
+.column {
+  width: 300px;
+  height: 600px;
+  float: left;
+  background-color: darkorange;
+  margin-left: 25px;
+
+}
 
 #blog header, .content, .avatar, .byline {
   background-color: #333333;
