@@ -16,5 +16,23 @@ body {
   float: left;
 }
 .menubar {
-  
+
 }
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #BCBCBC;
+}
+
+a:hover {
+  color: #84592C;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
