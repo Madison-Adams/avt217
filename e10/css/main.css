@@ -56,7 +56,7 @@ body {
 }
 
 #blog header, .content, .avatar, .byline {
-  background-color: #333333;
+  background-color: orangered;
 }
 #blog header {
   width: 800px;
