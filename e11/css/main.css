@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0;
+  background-color: #754685;
+  display: flow-root;
+}
+.ghostbody {
+  width: 300px;
+  height: 150px;
+  background: white;
+  border-radius: 50%;
+  float: left;
+  margin: 300px 300px 300px 300px;
+  transform: rotate(75deg);
+}
+.ghostbody2 {
+    width: 300px;
+    height: 150px;
+    background: white;
+    border-radius: 50%;
+    float: right;
+    margin: auto auto auto auto;
+    transform: rotate(25deg);
+}
+.ghostleg1 {
+  width: 90px;
+  height: 45px;
+  background: mediumpurple;
+  border-radius: 50%;
+  float: left;
+  transform: rotate(75deg);
+  margin: 100px auto 100px auto;
+}
+.ghostleg2 {
+  width: 90px;
+  height: 45px;
+  background: mediumpurple;
+  border-radius: 50%;
+  float: left;
+  transform: rotate(75deg);
+  margin: 90px auto 90px auto;
+
+}
+.ghostleg3 {
+  width: 90px;
+  height: 45px;
+  background: mediumpurple;
+  border-radius: 50%;
+  float: left;
+  transform: rotate(75deg);
+  margin: 80px auto 80px auto;
+}
