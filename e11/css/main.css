@@ -3,9 +3,43 @@
 
 }
 body {
+  overflow: hidden;
+  height; 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   background-color: #754685;
-  display: flow-root;
+}
+#container {
+  width: 400px;
+  height: 400px;
+  padding: 0;
+  box-sizing: border-box;
+  background: #754685;
+}
+#ghost {
+  margin: 10% auto;
+  width: 80%;
+  height: 80%;
+  animation: floaty 2s infinite;
+}
+#ghost #ghostbody {
+  position: relative;
+  margin: 50px auto 0;
+  width: 300px;
+  height: 150px;
+  background: white;
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+
+.ghost {
+  width: 300px;
+  height: 150px;
+  border-radius: 50%;
+  float: left;
 }
 .ghostbody {
   width: 300px;
@@ -13,17 +47,8 @@ body {
   background: white;
   border-radius: 50%;
   float: left;
-  margin: 300px 300px 300px 300px;
+  position: absolute;
   transform: rotate(75deg);
-}
-.ghostbody2 {
-    width: 300px;
-    height: 150px;
-    background: white;
-    border-radius: 50%;
-    float: right;
-    margin: auto auto auto auto;
-    transform: rotate(25deg);
 }
 .ghostleg1 {
   width: 90px;
@@ -32,7 +57,7 @@ body {
   border-radius: 50%;
   float: left;
   transform: rotate(75deg);
-  margin: 100px auto 100px auto;
+  position: absolute;
 }
 .ghostleg2 {
   width: 90px;
@@ -41,7 +66,7 @@ body {
   border-radius: 50%;
   float: left;
   transform: rotate(75deg);
-  margin: 90px auto 90px auto;
+  position: absolute;
 
 }
 .ghostleg3 {
@@ -51,5 +76,21 @@ body {
   border-radius: 50%;
   float: left;
   transform: rotate(75deg);
-  margin: 80px auto 80px auto;
+  position: absolute;
+}
+.ghostbese {
+  width: 90px;
+  height: 45px;
+  background: mediumpurple;
+  border-radius: 50%;
+  float: left;
+  transform: rotate(90deg);
+  position: absolute;
+
+}
+.ghosteye {
+
+}
+.ghosteye2 {
+
 }
