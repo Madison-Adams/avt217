@@ -12,30 +12,55 @@ body {
   margin: 0;
 }
 .home {
-  background: url(../images/home-image.png) no-repeat center center;
+  background: url(../images/home-image.png) no-repeat center center fixed;
   webkit-background-size: cover;
   moz-background-size: cover;
   o-background-size: cover;
   background-size: cover;
 }
-.triangle {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid #84592C;
-  float: left;
+h1 {
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 150px;
+  text-align: center;
+  margin-top: 25px;
 }
-.menubar {
-  height: 100px;
+header {
+  display: flow-root;
+  padding: 5px 50px;
+}
+nav {
+  height: 125px;
   width: auto;
   background-color: #496651;
+  margin-top: 10px;
+  text-align: center;
+}
+ul {
+  width: ;
+  left-margin: auto;
+  right-margin: auto;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  float: left;
+  margin-left: 200px;
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+}
+
+.owl {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
 }
-a:link {
-  color: #FFFFFF;
-}
-
 a:visited {
   color: #BCBCBC;
 }
@@ -51,6 +76,52 @@ a:link {
 a:visited {
   text-decoration: none;
 }
+
+h2 {
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 150px;
+  text-align: center;
+}
+h3 {
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+}
+.container {
+  background: url(../images/tourpage.png) no-repeat center center;
+  background-size: cover;
+  padding: 400px 100px;
+}
+.logo {
+  background: url(../images/owl2.png) no-repeat center center;
+  background-size: cover;
+  padding: 250px 50px;
+}
+.date {
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+}
+.location {
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+}
+.columns {
+  display: flow-root;
+  margin-right: auto;
+  margin-left: 350px;
+}
 .col {
   width: 50%;
   float: left;
@@ -59,9 +130,12 @@ a:visited {
   .col {
     width: 50%;
     margin-bottom: 50px;
-  }
-  ul {
-    width: ;
-    left-margin: auto;
-    right-margin: auto;
-  }
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #84592C;
+    float: left;
+}
